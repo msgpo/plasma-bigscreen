@@ -1,0 +1,22 @@
+Source: plasma-big-launcher
+Section: kde
+Priority: optional
+Maintainer: Harald Sitter <sitter@kde.org>
+Build-Depends: cmake,
+               debhelper (>= 9),
+               extra-cmake-modules,
+               libkf5wayland-dev,
+               libkf5windowsystem-dev,
+               pkg-kde-tools (>= 0.9),
+               plasma-framework-dev,
+               qtdeclarative5-dev
+Standards-Version: 3.9.6
+
+Package: plasma-big-launcher
+Architecture: any
+Depends: plasma-workspace,
+         plasma-minishell,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Plasma Big launcher
+ A plasma shell package intended for bigscreen devices.
