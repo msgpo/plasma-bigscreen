@@ -12,6 +12,8 @@ Build-Depends: cmake,
                libkf5windowsystem-dev,
                pkg-kde-tools (>= 0.9),
                plasma-framework-dev,
+               libkf5kcmutils-dev,
+               libkf5declarative-dev,
                qtdeclarative5-dev
 Standards-Version: 3.9.6
 
