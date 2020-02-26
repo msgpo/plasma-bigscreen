@@ -20,7 +20,8 @@ Standards-Version: 3.9.6
 Package: plasma-big-launcher
 Architecture: any
 Depends: plasma-workspace,
-         plasma-minishell,
+         plasma-nano,
+         qml-module-org-kde-kitemmodels,
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Plasma Big launcher
