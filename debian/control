@@ -1,4 +1,4 @@
-Source: plasma-big-launcher
+Source: plasma-bigscreen
 Section: kde
 Priority: optional
 Maintainer: Harald Sitter <sitter@kde.org>
@@ -14,7 +14,7 @@ Build-Depends: cmake,
                qtdeclarative5-dev
 Standards-Version: 3.9.6
 
-Package: plasma-big-launcher
+Package: plasma-bigscreen
 Architecture: any
 Depends: plasma-workspace,
          plasma-nano,
