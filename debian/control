@@ -14,7 +14,9 @@ Build-Depends: cmake,
                plasma-framework-dev,
                libkf5kcmutils-dev,
                libkf5declarative-dev,
-               qtdeclarative5-dev
+               qtdeclarative5-dev,
+               libkf5activities-dev,
+               libkf5activitiesstats-dev
 Standards-Version: 3.9.6
 
 Package: plasma-big-launcher
