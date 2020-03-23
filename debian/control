@@ -16,7 +16,8 @@ Build-Depends: cmake,
                libkf5declarative-dev,
                qtdeclarative5-dev,
                libkf5activities-dev,
-               libkf5activitiesstats-dev
+               libkf5activitiesstats-dev,
+               plasma-workspace-dev
 Standards-Version: 3.9.6
 
 Package: plasma-bigscreen
