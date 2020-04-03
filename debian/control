@@ -25,6 +25,7 @@ Architecture: any
 Depends: plasma-workspace,
          plasma-nano,
          qml-module-org-kde-kitemmodels,
+         kdeconnect,
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Plasma Bigscreen
