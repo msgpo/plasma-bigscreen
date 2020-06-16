@@ -26,6 +26,7 @@ Architecture: any
 Depends: plasma-workspace,
          plasma-nano,
          qml-module-org-kde-kitemmodels,
+         qml-module-qt-labs-platform,
          kdeconnect,
          ${misc:Depends},
          ${shlibs:Depends}
